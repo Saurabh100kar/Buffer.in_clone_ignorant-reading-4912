@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+
+        <input id="email" type="email" placeholder="enter email">
+        <input id="pas" type="password" placeholder="enter password">
+        <input type="submit">
+
+    </form>
+</body>
+
+</html>
+
+<script>
+    //last data
+    let data = JSON.parse(localStorage.getItem("userdata")) || [];
+    console.log(data);
+
+    let data1 = JSON.parse(localStorage.getItem("logindata")) || [];
+
+    document.querySelector("form").addEventListener("submit", function (event) {
+
+        event.preventDefault();
+
+        let email1 = document.querySelector("#email").value;
+        let password1 = document.querySelector("#pas").value;
+
+        let obj1 = {
+            email1,
+            password1
+        }
+
+        data1.push(obj1);
+
+        localStorage.setItem("logindata", JSON.stringify(data1));
+
+        console.log(obj1);
+
+        let flag = false;
+
+        for (let i = 0; i < data.length; i++) {
+            if (data[i].email === obj1.email1 && data[i].password === obj1.password1) {
+                flag = true;
+            }
+        }
+
+        if(flag == true)
+        alert("successfull");
+        else{
+                alert("Please enter correct email or password");
+            }
+
+
+    });
+
+
+</script>
