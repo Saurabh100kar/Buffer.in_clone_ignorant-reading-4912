@@ -1,0 +1,291 @@
+
+.navbar{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar img{
+    height: 100px;
+}
+
+.navbar>div button{
+    font-size: 25px;
+    padding-top: 10px;  
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #2c4bff;
+    color: white;
+    border-radius: 12px 12px 12px 12px;
+    border: 0px;
+}
+#login a{
+    color: #2c4bff; 
+    
+}
+
+.navbar-class{
+    cursor: pointer;
+}
+
+.dropdown-navbar{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 12px;
+    min-width: 160px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 1;
+  }
+  
+  .dropdown-navbar a {
+    float: none;
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-navbar a:hover {
+    background-color: rgb(245, 241, 241);
+  }
+  
+  .navbar-class:hover .dropdown-navbar {
+    display: block;
+  }
+
+
+
+/* Navbar Finished here */
+
+
+.First-Part{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10%;
+}
+.First-Part>div{
+    
+    width: 45%;
+    height: 100%;
+    
+}
+.First-Part>div>h1{
+    margin-top: 100px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.First-Part>div>p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.First-Part> div >.class-btn{
+    display: flex;
+    justify-content: space-between;
+}
+#start-btn{
+    font-size: 25px;
+    padding-top: 10px;  
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #2c4bff;
+    color: white;
+    border-radius: 12px 12px 12px 12px;
+    border: 0px;
+    margin-top: 20px;
+}
+.watch-btn{
+ font-size: 25px;
+    background-color: white;
+    border-radius: 12px 12px 12px 12px;
+    font-size: 24px;
+    padding-top: 10px;  
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid blue;
+    margin-top: 20px;
+}
+.watch-btn a{
+    color: #2c4bff;
+    text-decoration: none;
+
+}
+
+/* Finished First part after navbar  */
+
+
+.images-container{
+    display: flex;
+    justify-content: space-between;
+   
+     width: 80%;
+     margin: auto;
+     margin-top: 40px;
+     height: 100px;
+ }
+ 
+ .images-container>div{
+    
+     width: 15%;;
+ }
+
+ /* finished  imagescontainer here */
+
+ .second-part{
+    margin-top: 100px;
+}
+
+.second-part>h1{
+   
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+   
+}
+.second-part>p{
+  
+    font-size: 20px;
+        text-align: center;
+  
+}
+/* finished second part here */
+
+
+.data-1{
+
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.data-1>div{
+
+ width: 45%;
+ 
+}
+.data-1>div>.div-1{
+    padding-top: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.data-1>div>.div-1 h3{
+    color: blue;
+}
+.data-1>div>.div-1 button{
+    font-size: 25px;
+    padding-top: 10px;  
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #2c4bff;
+    color: white;
+    border-radius: 12px 12px 12px 12px;
+    border: 0px;
+    margin-top: 20px;
+}
+
+/*  ****** */
+
+.data-2{
+   
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.data-2>div{
+ 
+ width: 45%;
+ 
+}
+.data-2>div>.div-1{
+    padding-top: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.data-2>div>.div-1 h3{
+    color: blue;
+}
+.data-2>div>.div-1 button{
+    font-size: 25px;
+    padding-top: 10px;  
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #2c4bff;
+    color: white;
+    border-radius: 12px 12px 12px 12px;
+    border: 0px;
+    margin-top: 20px;
+}
+/* ****** */
+.data-3{
+  
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.data-3>div{
+ width: 45%;
+}
+
+.data-3>div>.div-1{
+    padding-top: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.data-3>div>.div-1 h3{
+    color: blue;
+}
+
+.data-3>div>.div-1 button{
+    font-size: 25px;
+    padding-top: 10px;  
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #2c4bff;
+    color: white;
+    border-radius: 12px 12px 12px 12px;
+    border: 0px;
+    margin-top: 20px;
+}
+
+.data-4{
+    text-align: center;
+      margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.data-4 h3{
+    color: blue;
+}
+
+/* finished all data images part here */
