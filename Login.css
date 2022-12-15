@@ -24,8 +24,9 @@
     border-radius: 10px;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border:1px solid  green;
+    border:1px solid  rgb(23, 40, 228);
     text-align: inherit;
+    margin-bottom: 10px;
   }
   .login-page button{
     display: block;
@@ -36,7 +37,7 @@
     margin-top: 15px;
     margin-bottom: 25px;
     font-size: 20px;
-    background-color: #008260;
+    background-color:  rgb(23, 40, 228);
     color: white;
     border-radius: 10px;
     border: none;

@@ -1,0 +1,28 @@
+
+.customer-mid-part{
+  
+    height: auto;
+    display: grid;
+    gap: 30px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+.customer-mid-part >div{
+    height: 300px;
+    border:1px solid black;
+    padding: 30px;
+}
+.customer-mid-part .div1{
+ border: 5px solid rgb(89, 92, 44);
+}
+.customer-mid-part .div2{
+    border: 5px solid rgb(219, 126, 19);
+}
+.customer-mid-part .div3{
+    border: 5px solid rgb(12, 220, 12);
+    
+}.customer-mid-part >.div4{
+    border: 5px solid rgb(65, 243, 234);
+}
